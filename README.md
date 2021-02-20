@@ -1,16 +1,16 @@
-### Preact Boilerplate
+### React-Typescript Boilerplate
 
 Simple opinionated boilerplate for getting started on simple projects.
 
 Includes the following:
 
-- Preact-Router
+- React-Router
+- Typescript
 - Parcel Bundler
 - SASS
-- Babel
 - Eslint
 
 #####
 
-For local dev server, run `npm run dev` and open http://localhost:1234.
+For local dev server, run `yarn run dev` and open http://localhost:1234.
 
