@@ -1,0 +1,39 @@
+{
+  "name": "react-ts-boilerplate",
+  "version": "1.0.0",
+  "description": "Simple React Typescript Boilerplate",
+  "scripts": {
+    "start": "parcel ./public/index.html",
+    "dev": "parcel serve ./public/index.html",
+    "watch": "parcel watch ./public/index.html",
+    "build": "parcel build ./public/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Boris Searles",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@parcel/optimizer-cssnano": "2.0.0-nightly.592",
+    "@parcel/optimizer-htmlnano": "2.0.0-nightly.592",
+    "@parcel/packager-css": "2.0.0-nightly.592",
+    "@parcel/packager-html": "2.0.0-nightly.592",
+    "@parcel/packager-raw-url": "2.0.0-nightly.2214",
+    "@parcel/transformer-css": "2.0.0-nightly.592",
+    "@parcel/transformer-html": "2.0.0-nightly.592",
+    "@parcel/transformer-postcss": "2.0.0-nightly.592",
+    "@parcel/transformer-posthtml": "2.0.0-nightly.592",
+    "@parcel/transformer-sass": "2.0.0-nightly.592",
+    "@parcel/transformer-webmanifest": "2.0.0-nightly.2214",
+    "@typescript-eslint/eslint-plugin": "^4.15.0",
+    "@typescript-eslint/parser": "^4.15.0",
+    "eslint": "^7.20.0",
+    "eslint-plugin-react": "^7.22.0",
+    "parcel": "^2.0.0-beta.1",
+    "postcss": "^8.2.1",
+    "typescript": "^4.1.5"
+  }
+}
